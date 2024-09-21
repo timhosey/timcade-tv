@@ -1,16 +1,23 @@
+@font-face {
+  font-family: berliner_g;
+  src: url(BerlinerGroteskMedium.ttf);
+}
+
 html, body{
 	-webkit-font-smoothing:antialiased;
-	font-family: "Comic Sans MS", sans-serif;
+	font-family: "berliner_g", sans-serif;
 	line-height:1.4;
 	margin:0 auto;
 	max-width:860px;
 	height: 100%;
+	font-size: 1.1em;
 }
 .center{
 	text-align: center;
 }
 .intro{
-	font-size:4em;
+	font-size:5em;
+	color: yellow
 }
 .max { 
     display: block;
@@ -18,13 +25,13 @@ html, body{
     word-wrap: break-word;
 }
 .bg1{
-	background-image: url("https://i.imgur.com/YUPql5N.gif");
+	background-image: url("img/starbackground.gif");
 }
 .bg2{
-	background-image: url("https://i.imgur.com/SHZe50s.gif");
+	background-image: url("");
 }
-a{
-	color: #000000;
+a {
+	color: rgb(176, 92, 255);
 }
 #wm-ipp #wm-ipp-inside {
   margin: 0 6px;
@@ -42,11 +49,11 @@ a{
     border: 2px solid black;
     box-sizing: border-box;
 }
-h1, h2, h3, p, a {
-  color: yellow;
+h1, h2, h3, p {
+  color: rgb(28, 240, 255);
 }
 span.line{
-  color: red;
+  color: rgb(28, 240, 255);;
 }
 .cursor{
     cursor: url(https://i.imgur.com/RUE567I.gif), auto;
@@ -54,11 +61,11 @@ span.line{
 
 /* @group Blink */
 .blink {
-	-webkit-animation: blink .75s linear infinite;
-	-moz-animation: blink .75s linear infinite;
-	-ms-animation: blink .75s linear infinite;
-	-o-animation: blink .75s linear infinite;
-	 animation: blink .75s linear infinite;
+	-webkit-animation: blink 2s linear infinite;
+	-moz-animation: blink 2s linear infinite;
+	-ms-animation: blink 2s linear infinite;
+	-o-animation: blink 2s linear infinite;
+	 animation: blink 2s linear infinite;
 }
 @-webkit-keyframes blink {
 	0% { opacity: 1; }
