@@ -11,7 +11,8 @@
       <h4>
         <a href="index.php">Home</a> <span class="line">|</span>
         <a href="about.php">About Me</a> <span class="line">|</span>
-        <a href="https://github.com/timhosey" target="_new">My GitHub</a>
+        <a href="https://simplytim.io" target="_new">Blog</a> <span class="line">|</span>
+        <a href="https://github.com/timhosey" target="_new">GitHub</a>
       </h4>
     </div>
     <h1 class="tab">You've Found...</h1>
