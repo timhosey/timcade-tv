@@ -10,7 +10,7 @@ html, body{
 	margin:0 auto;
 	max-width:860px;
 	height: 100%;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	cursor: url('img/pointer.png'), auto;
 }
 .center{
@@ -56,6 +56,8 @@ h1, h2, h3, p {
 }
 span.line{
   color: rgb(28, 240, 255);
+	padding-left: .3em;
+	padding-right: .3em;
 }
 .cursor{
     cursor: url('img/pointer.png'), auto;
