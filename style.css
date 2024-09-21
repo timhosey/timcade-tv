@@ -11,6 +11,7 @@ html, body{
 	max-width:860px;
 	height: 100%;
 	font-size: 1.1em;
+	cursor: url('img/pointer.png'), auto;
 }
 .center{
 	text-align: center;
@@ -32,6 +33,7 @@ html, body{
 }
 a {
 	color: rgb(176, 92, 255);
+	cursor: url('img/glove.png'), auto;
 }
 #wm-ipp #wm-ipp-inside {
   margin: 0 6px;
@@ -53,10 +55,14 @@ h1, h2, h3, p {
   color: rgb(28, 240, 255);
 }
 span.line{
-  color: rgb(28, 240, 255);;
+  color: rgb(28, 240, 255);
 }
 .cursor{
-    cursor: url(https://i.imgur.com/RUE567I.gif), auto;
+    cursor: url('img/pointer.png'), auto;
+}
+
+.home {
+	padding-top: .5em;
 }
 
 /* @group Blink */
@@ -99,7 +105,23 @@ span.line{
 }
 /* @end */
 
-/*for footer*/
+/*for footer
 #main{
 	min-height: 90vh;
 }
+*/
+
+/* Table CSS */
+div.tbl {
+	text-align: left;
+}
+.divTable.tbl .divTableCell, .divTable.tbl .divTableHead {
+}
+/* DivTable.com */
+.divTable{ display: table; max-width: 600px; margin: 0 auto; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell; padding: 1em;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
