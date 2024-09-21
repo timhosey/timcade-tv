@@ -6,15 +6,20 @@ const api = new GhostContentAPI({
 
 // fetch 5 posts, including related tags and authors
 // fetch 5 posts, including related tags and authors
-api.posts.browse({limit: 3})
+api.posts.browse({limit: 4})
 .then((posts) => {
-  var content = '';
+  var content = `<div class="divTable tbl"><div class="divTableBody">`;
   var postnum = 0;
   posts.forEach((post) => {
-    if (postnum > 0) { content += '<br />'; }
-    content += `<br /><a href="${post.url}" target="_blank" class="tdn">${post.title}</a>`;
+    if (postnum == 0 || postnum == 2) { content += '<div class="divTableRow">'; }
+    content += `<div class="divTableCell">`;
+    if (postnum == 0) { content += `<img src='img/new.gif' />&nbsp;` }
+    content += `<a href="${post.url}" target="_blank" class="tdn">${post.title}</a>`;
+    content += `</div>`;
+    if (postnum == 1 || postnum == 3) { content += '</div>'; }
     postnum += 1;
   });
+  content += `</div></div>`
   document.getElementById('blogPost').innerHTML = content;
 })
 .catch((err) => {
