@@ -5,7 +5,7 @@
     </p>
 
     <p>
-      <a href="https://abstractionmusic.com" target="_new">Abstraction Music</a> - This is the legendary site of ben_burnes,
+      <a href="https://abstractionmusic.com" target="_new" alt="Link to Abstraction Music dot com">Abstraction Music</a> - This is the legendary site of ben_burnes,
       one of my favorite musicians, game devs, and friendos.
     </p>
 <?php require_once 'foot.php'; ?>

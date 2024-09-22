@@ -13,7 +13,7 @@ api.posts.browse({limit: 4})
   posts.forEach((post) => {
     if (postnum == 0 || postnum == 2) { content += '<div class="divTableRow">'; }
     content += `<div class="divTableCell">`;
-    if (postnum == 0) { content += `<img src='img/new.gif' />&nbsp;` }
+    if (postnum == 0) { content += `<img src='img/new.gif' alt='blinking new indicator' />&nbsp;` }
     content += `<a href="${post.url}" target="_blank" class="tdn">${post.title}</a>`;
     content += `</div>`;
     if (postnum == 1 || postnum == 3) { content += '</div>'; }

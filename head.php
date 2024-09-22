@@ -18,5 +18,5 @@
     <h1 class="tab">You've Found...</h1>
     <div class="intro"><img src="img/timcade_logo.png" alt="Timcade Logo" /></div>
     <div>
-      <img src="img/theme_div.gif">
+      <img src="img/theme_div.gif" alt="color cycling divider image" />
     </div>
