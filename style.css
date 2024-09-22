@@ -20,6 +20,9 @@ html, body{
 	font-size:5em;
 	color: yellow
 }
+.intro img {
+	max-width: 860px;
+}
 .max { 
     display: block;
     width: 860px;
