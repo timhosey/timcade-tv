@@ -38,6 +38,9 @@ a {
 	color: rgb(176, 92, 255);
 	cursor: url('img/glove.png'), auto;
 }
+a:hover {
+	color: rgb(255, 158, 78);
+}
 #wm-ipp #wm-ipp-inside {
   margin: 0 6px;
   border:5px solid #000;
@@ -55,10 +58,10 @@ a {
     box-sizing: border-box;
 }
 h1, h2, h3, p {
-  color: rgb(28, 240, 255);
+  color: rgb(222, 222, 222);
 }
 span.line{
-  color: rgb(28, 240, 255);
+  color: rgb(222, 222, 222);
 	padding-left: .3em;
 	padding-right: .3em;
 }
@@ -130,3 +133,50 @@ div.tbl {
 .divTableHeading { display: table-header-group;}
 .divTableFoot { display: table-footer-group;}
 .divTableBody { display: table-row-group;}
+
+/* EmFed */
+
+.emfed .avatar, .emfed .display-name, .emfed .username {
+	display: none;
+}
+
+.emfed .toots {
+  padding: none;
+	list-style: none;
+}
+
+.emfed .toots .toot {
+  background: rgba(0, 0, 0, 0.7);
+  color: rgb(255, 225, 78);
+	padding: .5em;
+  padding-top: 1em;
+	padding-bottom: .2em;
+	border: 1px solid rgba(255,255,255,0.7);
+}
+
+.emfed .toots .toot p {
+	color: rgb(255, 225, 78);
+}
+
+.emfed .toots .toot .permalink::before {
+	content: "Latest Post: ";
+}
+
+/* Blog Post */
+.blog-posts {
+	background: rgba(0, 0, 0, 0.7);
+  color: rgb(255, 225, 78);
+  padding: 5px;
+  margin-left: 35px;
+	border: 1px solid rgba(255,255,255,0.7);
+}
+
+/* Video */
+.video-embed {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: rgba(0, 0, 0, 0.7);
+  color: rgb(255, 225, 78);
+  margin-left: 35px;
+	border: 1px solid rgba(255,255,255,0.7);
+}
