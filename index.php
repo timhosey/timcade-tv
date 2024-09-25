@@ -6,7 +6,7 @@
              target="_new">Twitch Stream</a> |
         <a href="https://youtube.com/Timcade"
              target="_new">YouTube Channel</a> |
-        <a href="https://discorg.gg/thearcade"
+        <a href="https://discord.gg/thearcade"
              target="_new">Community Discord</a>
     </p>
     <div class="video-embed">
