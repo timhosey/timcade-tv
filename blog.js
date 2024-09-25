@@ -4,8 +4,7 @@ const api = new GhostContentAPI({
   version: "v5.0"
 });
 
-// fetch 5 posts, including related tags and authors
-// fetch 5 posts, including related tags and authors
+// fetch 4 posts, including related tags and authors
 api.posts.browse({limit: 4})
 .then((posts) => {
   var content = `<div class="divTable tbl"><div class="divTableBody">`;
