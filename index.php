@@ -9,7 +9,7 @@
         <a href="https://discorg.gg/thearcade"
              target="_new">Community Discord</a>
     </p>
-    <div>
+    <div class="video-embed">
         <iframe class="latestVideoEmbed"
              vnum='0'
              width="600"
@@ -28,7 +28,7 @@
         <a href="https://tiktok.com/@thetimcade"
              target="_new">TikTok</a>
     </p>
-    <p>
+    <div class="emfed">
         <a class="mastodon-feed"
             href="https://meh.social/@Timcade"
             data-toot-limit="1"
@@ -36,10 +36,10 @@
             data-exclude-reblogs="true">
             follow me into the Fediverse
         </a>
-    </p>
+    </div>
 
     <h2 id="blog">Latest Blog Posts</h2>
-    <p id="blogPost"></p>
+    <p id="blogPost" class="blog-posts"></p>
 
     <script src="youtubevideo.js"></script>
     <script type="module" src="https://esm.sh/emfed@1"></script>
