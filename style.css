@@ -73,6 +73,16 @@ span.line{
 	padding-top: .5em;
 }
 
+footer {
+	display:block;
+}
+
+footer .info {
+	line-height: 150px;
+	height: 150px;
+	color: rgb(222, 222, 222);
+}
+
 /* @group Blink */
 .blink {
 	-webkit-animation: blink 2s linear infinite;
