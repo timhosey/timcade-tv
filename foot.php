@@ -2,7 +2,7 @@
   <footer id="footer">
     <img src="img/theme_div.gif" alt="color cycling divider image" />
     <!-- https://i.imgur.com/i6hvJjx.gif -->
-    <p>Content &copy; 2024 Timcade
+    <p>Content &copy; 2024-2025 Timcade
       <br />Design based on <a href="https://codepen.io/nikillpop/pen/VdJjJW" alt="link to nikillpop's codepen">nikillpop's</a>
     </p>
     <div class="info">
